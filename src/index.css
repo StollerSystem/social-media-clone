@@ -32,21 +32,42 @@ code {
   margin: 5px;
 }
 
-/* #header {
-  display:inline;
-} */
 
 .profilePic {
   margin: auto;
   width: 50%;
+  border: solid white;
+  border-radius: 25px;
 }
 
 .postPic {
   margin: auto;
   width: 20%;
+  border: solid turquoise; 
 }
 
 hr {
   border-color: black;
   border-width: 2px;
+}
+
+.profileBox {
+  background: linear-gradient(to top, white 50%, turquoise 50% )
+}
+
+.boxTop {
+  border-radius: 25px;
+  border: solid black;
+  padding: 15px;
+  border-width: 2px;
+  background-color: turquoise;
+}
+
+.inline {
+  display: inline;
+}
+
+button {
+  margin: 5px;
+  margin-left: 0px;
 }

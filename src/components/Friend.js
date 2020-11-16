@@ -4,8 +4,8 @@ import PropTypes from "prop-types";
 function Friend(props){
   return (
     <React.Fragment>
-      <img class="postPic" src={props.picture}/>
-      <h4>{props.name}</h4>  
+      <span class="inline"><img class="postPic inline" src={props.picture}/><h4 class="inline">{props.name}</h4></span>
+       <br></br>
       <button>Add Friend</button>    
       <hr/>
     </React.Fragment>

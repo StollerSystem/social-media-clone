@@ -38,15 +38,16 @@ const posts = [
 function Feed() {
   return (    
     <div class="border">
-      <h3>The FEED!</h3>
-      <input type="text" placeholder="Your status..." name="status"></input>    
+      <div class="boxTop">
+        <h3>The FEED!</h3>
+        <input type="text" placeholder="Update your status..." name="status"></input><button>Post</button>
+      </div>
       <hr/>
       {posts.map((post, index) => 
           <Post name={post.name}
           status={post.status}
           picture={post.picture}
-          key={index}/>
-          
+          key={index}/>          
         )}
     </div>  
   );

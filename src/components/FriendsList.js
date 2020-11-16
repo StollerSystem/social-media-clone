@@ -24,7 +24,9 @@ function FriendsList(){
   return (
     <React.Fragment>
       <div class="border">
-        <h3>Friend List</h3>
+        <div class="boxTop">
+          <h3>Friend Requests</h3>
+        </div>
         <hr/>
         {friends.map((friend, index) => 
           <Friend name={friend.name}

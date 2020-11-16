@@ -6,7 +6,7 @@ function Post (props) {
   return (
     <div>
       <h3>{props.name}</h3>
-      <p>{props.status}</p>
+      <p>"{props.status}"</p>
       <img class="postPic" src={props.picture}/>
       <hr/>
     </div>    
